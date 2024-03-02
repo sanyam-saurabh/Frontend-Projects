@@ -11,4 +11,4 @@ This project serves as a project to show off my personal skills.
 If you have any suggestions or if you enjoyed the project idea feel free to message me at [LinkedIn](https://www.linkedin.com/in/sanyam-saurabh/).
 
 
-Do leave a ⭐.
+Do ⭐ it if you like it.
