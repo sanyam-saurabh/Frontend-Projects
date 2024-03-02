@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: var(--text);
+}
+:root{
+    --primary-color: linear-gradient(135deg, rgb(204, 0, 255), red);
+    --secondary-color: #fff;
+    --tertiary: rgb(59, 98, 129);
+    --button: linear-gradient(135deg, rgb(62, 1, 62), rgb(4, 4, 103));
+    --text: black;
+}
+.dark-theme{
+    --primary-color: linear-gradient(135deg, rgb(62, 1, 62), rgb(4, 4, 103));
+    --secondary-color: rgb(0, 0, 0);
+    --tertiary: rgb(126, 71, 138);
+    --button: linear-gradient(135deg, rgb(204, 0, 255), red);
+    --text: #fff;
+}
+body{
+    background: var(--primary-color);
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 10% auto 5%;
+    padding: 50px 30px 50px ;
+    background: var(--secondary-color);
+    align-items: center;
+    border-radius: 30px;
+}
+.header{
+    display: flex;
+    position: relative;
+}
+.header h2{
+    color: blueviolet;
+    margin-bottom: 20px;
+    /* blueviolet */
+    
+}
+#toggle{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.row{
+    background: var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+#task{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+#task::placeholder{
+    color: #1c1b1b; /* Set the desired color for the placeholder text */
+}
+button{
+    padding: 16px 50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: var(--button);
+    color: var(--secondary-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+ul li{
+    position: relative;
+    font-size: 16px;
+    list-style-type: none;
+    padding: 10px 8px 10px 45px ;
+    user-select: none;
+}
+ul li::before{
+    content: "";
+    background-image: url(images/circle-regular.png);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-size: cover;
+    top: 8px;
+    left: 8px;
+}
+.checked{
+    color: var(--tertiary);
+    text-decoration: line-through;
+}
+.checked::before{
+    background-image: url(images/circle-check-solid.png);
+}
+ul li img{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+ul li img:hover{
+    background: var(--tertiary);
+    cursor: pointer;
+}

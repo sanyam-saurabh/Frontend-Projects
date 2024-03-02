@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/pen-to-square-regular.png" type="image/x-icon">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <div class="header">
+                <h2>To-do List <img src="images/pen-to-square-solid.png"></h2>
+                <img src="images/toggle-off-solid.png" id="toggle">
+            </div>
+            
+            
+            <div class="row">
+                <input type="text" placeholder="Add your text..." id="task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="tasklist">
+                <!-- <li class="checked">task1 <img src="images/circle-xmark-regular.png" alt=""></li>
+                <li>task2</li>
+                <li>task3</li> -->
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
