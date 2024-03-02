@@ -10,7 +10,7 @@ If you like this repo, be sure to ⭐ it.
 
 |  #  | Project | Live Demo | 
 | --- | ------------------------------------------------ | --------------------  |
-| 01  | [Weather App]| [Live Demo]|
+| 01  | [Weather App](https://github.com/sanyam-saurabh/Frontend-Projects/tree/main/Weather%20App)| [Live Demo]|
 | 02  | [Dog Animation]| [Live Demo]|
 | 03  | [Developer Portfolio]| [Live Demo]|
 | 04  | [To-do List]| [Live Demo]|
